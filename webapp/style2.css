@@ -1,0 +1,10 @@
+@charset "UTF-8";
+div{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+label{
+	display:inline-block;
+	text-align:center;
+	width:40px;
+}
