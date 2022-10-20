@@ -1,0 +1,13 @@
+@charset "UTF-8";
+div{
+  background-color: gray;
+}
+title{
+display: inline-block;
+padding: 10px;
+color: white;
+}
+cal{
+padding: 10px;
+font-size: 10px;
+}
