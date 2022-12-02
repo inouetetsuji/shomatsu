@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body{
+	height:540px;
+}
+divbody{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: white;
+	height:400px;
+}
+td-css{
+	border: 2px solid black;
+	width:40px;
+}
+td-css11{
+	border-style:none;
+	text-align:center;
+	width:25px;	
+}
+td-css12{
+	border:none;
+}
+td-css13{
+	border-left:none;
+	border-right:none;
+}
