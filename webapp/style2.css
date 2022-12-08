@@ -1,10 +1,26 @@
 @charset "UTF-8";
-div{
+body{
+	height:400px;
+}
+.divbody{
 	padding-top: 50px;
 	padding-bottom: 50px;
+	background-color: white;
+	height:80px;
 }
-label{
-	display:inline-block;
+.td-css{
+	border: 2px solid black;
+	width:100px;
+}
+.td-css11{
+	border-style:none;
 	text-align:center;
-	width:40px;
+	width:25px;	
+}
+.td-css12{
+	border:none;
+}
+.td-css13{
+	border-left:none;
+	border-right:none;
 }

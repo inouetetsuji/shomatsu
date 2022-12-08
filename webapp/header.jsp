@@ -7,16 +7,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>login</title>
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/style.css">
 </head>
 <body>
-<div>
-	<title>
+<div class="header">
+	<label>
  	<%
  	String msg = "login";
  	out.print(msg);
  	%>
- 	</title>
+ 	</label>
  	<cal>
  	<%
  	GregorianCalendar cal = new GregorianCalendar();

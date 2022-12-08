@@ -1,8 +1,8 @@
 @charset "UTF-8";
-div{
+.header{
   background-color: gray;
 }
-title{
+label{
 display: inline-block;
 padding: 10px;
 color: white;

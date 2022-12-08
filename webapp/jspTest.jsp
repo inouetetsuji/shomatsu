@@ -5,19 +5,27 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/style.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/style1.css">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/style2.css">
 </head>
 <body>
 	<%@include file= "header.jsp"  %>
-	<div>
-		<p>
-		<label for="name">name</label>
-		<input type="text" name="name" size=30>
-		</p>
-		<p>
-		<label for="id">id</label>
-		<input type="text" name="id" size=30>
-		</p>
+	<div class = "divbody">
+	<table class ="table-css">
+		<tr>
+			<td class = "td-css11">name</td>
+			<td class = "td-css">        </td>
+		</tr>
+		<tr>
+			<td class = "td-css12">      </td>
+			<td class = "td-css13">        </td>
+		</tr>
+		<tr>
+			<td class = "td-css11">id </td>
+			<td class = "td-css">        </td>
+		</tr>
+     </table>
 	</div>
 	<%@include file= "footer.jsp" %>
 </body>
